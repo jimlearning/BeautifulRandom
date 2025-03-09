@@ -9,17 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationStack {
+        NavigationView {
             List {
-                NavigationLink("Audio Visualizer") {
-                    AudioVisualizerView()
-                }
-                NavigationLink("Radar Scanner") {
-                    RadarView()
-                }
+                NavigationLink("音频可视化", destination: AudioVisualizerView())
+                NavigationLink("雷达扫描", destination: RadarView())
+                NavigationLink("雪花效果", destination: SnowEffectView())
+                NavigationLink("雨滴效果", destination: RainEffectView())
             }
-            .navigationTitle("Beautiful Random")
-            .navigationBarTitleDisplayMode(.inline)
+            .navigationTitle("BeautifulRandom 示例")
         }
     }
 }

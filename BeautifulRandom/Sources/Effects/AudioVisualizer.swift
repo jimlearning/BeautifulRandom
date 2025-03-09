@@ -4,7 +4,7 @@ public class AudioVisualizer {
     private let generator: RandomGenerator
     private let barCount: Int
     private var lastBars: [Double] = []
-    private let baseHeight: Double = 0.3  // 基础高度
+    private let baseHeight: Double = 0.5  // 基础高度
     private var phase: Double = 0         // 添加相位控制
 
     public init(barCount: Int = 20) {

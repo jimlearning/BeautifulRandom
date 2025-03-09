@@ -13,8 +13,6 @@
 		384D2FC02D7D8BE2007E3821 /* BeautifulRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 384D2FB22D7D8BE1007E3821 /* BeautifulRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		384D2FE32D7D8FC0007E3821 /* AudioVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D2FDE2D7D8FC0007E3821 /* AudioVisualizer.swift */; };
 		384D2FE42D7D8FC0007E3821 /* AudioVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D2FDE2D7D8FC0007E3821 /* AudioVisualizer.swift */; };
-		384D2FE52D7D8FC0007E3821 /* RadarScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D2FDF2D7D8FC0007E3821 /* RadarScanner.swift */; };
-		384D2FE62D7D8FC0007E3821 /* RadarScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D2FDF2D7D8FC0007E3821 /* RadarScanner.swift */; };
 		384D2FE72D7D8FC0007E3821 /* RandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D2FE12D7D8FC0007E3821 /* RandomGenerator.swift */; };
 		384D2FE82D7D8FC0007E3821 /* RandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D2FE12D7D8FC0007E3821 /* RandomGenerator.swift */; };
 		384D2FF02D7D8FFC007E3821 /* BeautifulRandomExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D2FEF2D7D8FFC007E3821 /* BeautifulRandomExamplesApp.swift */; };
@@ -24,7 +22,12 @@
 		384D2FFE2D7D9052007E3821 /* BeautifulRandom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384D2FAF2D7D8BE1007E3821 /* BeautifulRandom.framework */; };
 		384D2FFF2D7D9052007E3821 /* BeautifulRandom.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 384D2FAF2D7D8BE1007E3821 /* BeautifulRandom.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		384D30062D7D931B007E3821 /* AudioVisualizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D30032D7D931B007E3821 /* AudioVisualizerView.swift */; };
-		384D30072D7D931B007E3821 /* RadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D30042D7D931B007E3821 /* RadarView.swift */; };
+		384D30092D7DC87B007E3821 /* RadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D30082D7DC87B007E3821 /* RadarView.swift */; };
+		384D300B2D7DC880007E3821 /* RadarScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D300A2D7DC880007E3821 /* RadarScanner.swift */; };
+		384D300E2D7DD0CF007E3821 /* RainEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D300C2D7DD0CF007E3821 /* RainEffectView.swift */; };
+		384D300F2D7DD0CF007E3821 /* SnowEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D300D2D7DD0CF007E3821 /* SnowEffectView.swift */; };
+		384D30122D7DD0D6007E3821 /* SnowGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D30102D7DD0D6007E3821 /* SnowGenerator.swift */; };
+		384D30132D7DD0D6007E3821 /* RainGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D30112D7DD0D6007E3821 /* RainGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +68,6 @@
 		384D2FB92D7D8BE2007E3821 /* BeautifulRandomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautifulRandomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		384D2FBE2D7D8BE2007E3821 /* BeautifulRandomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulRandomTests.swift; sourceTree = "<group>"; };
 		384D2FDE2D7D8FC0007E3821 /* AudioVisualizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioVisualizer.swift; sourceTree = "<group>"; };
-		384D2FDF2D7D8FC0007E3821 /* RadarScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarScanner.swift; sourceTree = "<group>"; };
 		384D2FE12D7D8FC0007E3821 /* RandomGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomGenerator.swift; sourceTree = "<group>"; };
 		384D2FED2D7D8FFC007E3821 /* BeautifulRandomExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautifulRandomExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		384D2FEF2D7D8FFC007E3821 /* BeautifulRandomExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulRandomExamplesApp.swift; sourceTree = "<group>"; };
@@ -73,7 +75,12 @@
 		384D2FF32D7D8FFF007E3821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		384D2FF62D7D8FFF007E3821 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		384D30032D7D931B007E3821 /* AudioVisualizerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioVisualizerView.swift; sourceTree = "<group>"; };
-		384D30042D7D931B007E3821 /* RadarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarView.swift; sourceTree = "<group>"; };
+		384D30082D7DC87B007E3821 /* RadarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarView.swift; sourceTree = "<group>"; };
+		384D300A2D7DC880007E3821 /* RadarScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarScanner.swift; sourceTree = "<group>"; };
+		384D300C2D7DD0CF007E3821 /* RainEffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainEffectView.swift; sourceTree = "<group>"; };
+		384D300D2D7DD0CF007E3821 /* SnowEffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowEffectView.swift; sourceTree = "<group>"; };
+		384D30102D7DD0D6007E3821 /* SnowGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowGenerator.swift; sourceTree = "<group>"; };
+		384D30112D7DD0D6007E3821 /* RainGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +153,9 @@
 			isa = PBXGroup;
 			children = (
 				384D2FDE2D7D8FC0007E3821 /* AudioVisualizer.swift */,
-				384D2FDF2D7D8FC0007E3821 /* RadarScanner.swift */,
+				384D300A2D7DC880007E3821 /* RadarScanner.swift */,
+				384D30112D7DD0D6007E3821 /* RainGenerator.swift */,
+				384D30102D7DD0D6007E3821 /* SnowGenerator.swift */,
 			);
 			path = Effects;
 			sourceTree = "<group>";
@@ -191,7 +200,9 @@
 			isa = PBXGroup;
 			children = (
 				384D30032D7D931B007E3821 /* AudioVisualizerView.swift */,
-				384D30042D7D931B007E3821 /* RadarView.swift */,
+				384D30082D7DC87B007E3821 /* RadarView.swift */,
+				384D300C2D7DD0CF007E3821 /* RainEffectView.swift */,
+				384D300D2D7DD0CF007E3821 /* SnowEffectView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -337,8 +348,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				384D30122D7DD0D6007E3821 /* SnowGenerator.swift in Sources */,
+				384D30132D7DD0D6007E3821 /* RainGenerator.swift in Sources */,
 				384D2FE32D7D8FC0007E3821 /* AudioVisualizer.swift in Sources */,
-				384D2FE52D7D8FC0007E3821 /* RadarScanner.swift in Sources */,
+				384D300B2D7DC880007E3821 /* RadarScanner.swift in Sources */,
 				384D2FE72D7D8FC0007E3821 /* RandomGenerator.swift in Sources */,
 				384D2FB42D7D8BE1007E3821 /* BeautifulRandom.docc in Sources */,
 			);
@@ -349,7 +362,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				384D2FE82D7D8FC0007E3821 /* RandomGenerator.swift in Sources */,
-				384D2FE62D7D8FC0007E3821 /* RadarScanner.swift in Sources */,
 				384D2FE42D7D8FC0007E3821 /* AudioVisualizer.swift in Sources */,
 				384D2FBF2D7D8BE2007E3821 /* BeautifulRandomTests.swift in Sources */,
 			);
@@ -359,10 +371,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				384D30092D7DC87B007E3821 /* RadarView.swift in Sources */,
 				384D30062D7D931B007E3821 /* AudioVisualizerView.swift in Sources */,
+				384D300F2D7DD0CF007E3821 /* SnowEffectView.swift in Sources */,
 				384D2FF22D7D8FFC007E3821 /* ContentView.swift in Sources */,
+				384D300E2D7DD0CF007E3821 /* RainEffectView.swift in Sources */,
 				384D2FF02D7D8FFC007E3821 /* BeautifulRandomExamplesApp.swift in Sources */,
-				384D30072D7D931B007E3821 /* RadarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -32,7 +32,7 @@ public class RandomGenerator {
         }
     }
 
-    // 基础线性随机
+    // 基础线性随机，生成的值的范围是 0 到 1 之间的浮点数（包括 0，但不包括 1）
     private func generateLinearRandom() -> Double {
         seed = 6364136223846793005 &* seed &+ 1
         return Double(seed) / Double(UInt64.max)
