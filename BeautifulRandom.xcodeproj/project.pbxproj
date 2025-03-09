@@ -11,6 +11,20 @@
 		384D2FBA2D7D8BE2007E3821 /* BeautifulRandom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384D2FAF2D7D8BE1007E3821 /* BeautifulRandom.framework */; };
 		384D2FBF2D7D8BE2007E3821 /* BeautifulRandomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D2FBE2D7D8BE2007E3821 /* BeautifulRandomTests.swift */; };
 		384D2FC02D7D8BE2007E3821 /* BeautifulRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 384D2FB22D7D8BE1007E3821 /* BeautifulRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		384D2FE32D7D8FC0007E3821 /* AudioVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D2FDE2D7D8FC0007E3821 /* AudioVisualizer.swift */; };
+		384D2FE42D7D8FC0007E3821 /* AudioVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D2FDE2D7D8FC0007E3821 /* AudioVisualizer.swift */; };
+		384D2FE52D7D8FC0007E3821 /* RadarScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D2FDF2D7D8FC0007E3821 /* RadarScanner.swift */; };
+		384D2FE62D7D8FC0007E3821 /* RadarScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D2FDF2D7D8FC0007E3821 /* RadarScanner.swift */; };
+		384D2FE72D7D8FC0007E3821 /* RandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D2FE12D7D8FC0007E3821 /* RandomGenerator.swift */; };
+		384D2FE82D7D8FC0007E3821 /* RandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D2FE12D7D8FC0007E3821 /* RandomGenerator.swift */; };
+		384D2FF02D7D8FFC007E3821 /* BeautifulRandomExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D2FEF2D7D8FFC007E3821 /* BeautifulRandomExamplesApp.swift */; };
+		384D2FF22D7D8FFC007E3821 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D2FF12D7D8FFC007E3821 /* ContentView.swift */; };
+		384D2FF42D7D8FFF007E3821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 384D2FF32D7D8FFF007E3821 /* Assets.xcassets */; };
+		384D2FF72D7D8FFF007E3821 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 384D2FF62D7D8FFF007E3821 /* Preview Assets.xcassets */; };
+		384D2FFE2D7D9052007E3821 /* BeautifulRandom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384D2FAF2D7D8BE1007E3821 /* BeautifulRandom.framework */; };
+		384D2FFF2D7D9052007E3821 /* BeautifulRandom.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 384D2FAF2D7D8BE1007E3821 /* BeautifulRandom.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		384D30062D7D931B007E3821 /* AudioVisualizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D30032D7D931B007E3821 /* AudioVisualizerView.swift */; };
+		384D30072D7D931B007E3821 /* RadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D30042D7D931B007E3821 /* RadarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,7 +35,28 @@
 			remoteGlobalIDString = 384D2FAE2D7D8BE1007E3821;
 			remoteInfo = BeautifulRandom;
 		};
+		384D30002D7D9052007E3821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 384D2FA62D7D8BE1007E3821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 384D2FAE2D7D8BE1007E3821;
+			remoteInfo = BeautifulRandom;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		384D30022D7D9052007E3821 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				384D2FFF2D7D9052007E3821 /* BeautifulRandom.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		384D2FAF2D7D8BE1007E3821 /* BeautifulRandom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BeautifulRandom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +64,16 @@
 		384D2FB32D7D8BE1007E3821 /* BeautifulRandom.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = BeautifulRandom.docc; sourceTree = "<group>"; };
 		384D2FB92D7D8BE2007E3821 /* BeautifulRandomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautifulRandomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		384D2FBE2D7D8BE2007E3821 /* BeautifulRandomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulRandomTests.swift; sourceTree = "<group>"; };
+		384D2FDE2D7D8FC0007E3821 /* AudioVisualizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioVisualizer.swift; sourceTree = "<group>"; };
+		384D2FDF2D7D8FC0007E3821 /* RadarScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarScanner.swift; sourceTree = "<group>"; };
+		384D2FE12D7D8FC0007E3821 /* RandomGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomGenerator.swift; sourceTree = "<group>"; };
+		384D2FED2D7D8FFC007E3821 /* BeautifulRandomExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautifulRandomExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		384D2FEF2D7D8FFC007E3821 /* BeautifulRandomExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulRandomExamplesApp.swift; sourceTree = "<group>"; };
+		384D2FF12D7D8FFC007E3821 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		384D2FF32D7D8FFF007E3821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		384D2FF62D7D8FFF007E3821 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		384D30032D7D931B007E3821 /* AudioVisualizerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioVisualizerView.swift; sourceTree = "<group>"; };
+		384D30042D7D931B007E3821 /* RadarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +92,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		384D2FEA2D7D8FFC007E3821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384D2FFE2D7D9052007E3821 /* BeautifulRandom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,7 +108,9 @@
 			children = (
 				384D2FB12D7D8BE1007E3821 /* BeautifulRandom */,
 				384D2FBD2D7D8BE2007E3821 /* BeautifulRandomTests */,
+				384D2FEE2D7D8FFC007E3821 /* BeautifulRandomExamples */,
 				384D2FB02D7D8BE1007E3821 /* Products */,
+				384D2FFD2D7D9052007E3821 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +119,7 @@
 			children = (
 				384D2FAF2D7D8BE1007E3821 /* BeautifulRandom.framework */,
 				384D2FB92D7D8BE2007E3821 /* BeautifulRandomTests.xctest */,
+				384D2FED2D7D8FFC007E3821 /* BeautifulRandomExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				384D2FB22D7D8BE1007E3821 /* BeautifulRandom.h */,
+				384D2FE22D7D8FC0007E3821 /* Sources */,
 				384D2FB32D7D8BE1007E3821 /* BeautifulRandom.docc */,
 			);
 			path = BeautifulRandom;
@@ -83,6 +140,60 @@
 				384D2FBE2D7D8BE2007E3821 /* BeautifulRandomTests.swift */,
 			);
 			path = BeautifulRandomTests;
+			sourceTree = "<group>";
+		};
+		384D2FE02D7D8FC0007E3821 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				384D2FDE2D7D8FC0007E3821 /* AudioVisualizer.swift */,
+				384D2FDF2D7D8FC0007E3821 /* RadarScanner.swift */,
+			);
+			path = Effects;
+			sourceTree = "<group>";
+		};
+		384D2FE22D7D8FC0007E3821 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				384D2FE02D7D8FC0007E3821 /* Effects */,
+				384D2FE12D7D8FC0007E3821 /* RandomGenerator.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		384D2FEE2D7D8FFC007E3821 /* BeautifulRandomExamples */ = {
+			isa = PBXGroup;
+			children = (
+				384D2FEF2D7D8FFC007E3821 /* BeautifulRandomExamplesApp.swift */,
+				384D2FF12D7D8FFC007E3821 /* ContentView.swift */,
+				384D30052D7D931B007E3821 /* Views */,
+				384D2FF32D7D8FFF007E3821 /* Assets.xcassets */,
+				384D2FF52D7D8FFF007E3821 /* Preview Content */,
+			);
+			path = BeautifulRandomExamples;
+			sourceTree = "<group>";
+		};
+		384D2FF52D7D8FFF007E3821 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				384D2FF62D7D8FFF007E3821 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		384D2FFD2D7D9052007E3821 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		384D30052D7D931B007E3821 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				384D30032D7D931B007E3821 /* AudioVisualizerView.swift */,
+				384D30042D7D931B007E3821 /* RadarView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +246,25 @@
 			productReference = 384D2FB92D7D8BE2007E3821 /* BeautifulRandomTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		384D2FEC2D7D8FFC007E3821 /* BeautifulRandomExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 384D2FF82D7D8FFF007E3821 /* Build configuration list for PBXNativeTarget "BeautifulRandomExamples" */;
+			buildPhases = (
+				384D2FE92D7D8FFC007E3821 /* Sources */,
+				384D2FEA2D7D8FFC007E3821 /* Frameworks */,
+				384D2FEB2D7D8FFC007E3821 /* Resources */,
+				384D30022D7D9052007E3821 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				384D30012D7D9052007E3821 /* PBXTargetDependency */,
+			);
+			name = BeautifulRandomExamples;
+			productName = BeautifulRandomExamples;
+			productReference = 384D2FED2D7D8FFC007E3821 /* BeautifulRandomExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +279,9 @@
 						CreatedOnToolsVersion = 15.4;
 					};
 					384D2FB82D7D8BE2007E3821 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					384D2FEC2D7D8FFC007E3821 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -168,6 +301,7 @@
 			targets = (
 				384D2FAE2D7D8BE1007E3821 /* BeautifulRandom */,
 				384D2FB82D7D8BE2007E3821 /* BeautifulRandomTests */,
+				384D2FEC2D7D8FFC007E3821 /* BeautifulRandomExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +321,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		384D2FEB2D7D8FFC007E3821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384D2FF72D7D8FFF007E3821 /* Preview Assets.xcassets in Resources */,
+				384D2FF42D7D8FFF007E3821 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +337,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				384D2FE32D7D8FC0007E3821 /* AudioVisualizer.swift in Sources */,
+				384D2FE52D7D8FC0007E3821 /* RadarScanner.swift in Sources */,
+				384D2FE72D7D8FC0007E3821 /* RandomGenerator.swift in Sources */,
 				384D2FB42D7D8BE1007E3821 /* BeautifulRandom.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,7 +348,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				384D2FE82D7D8FC0007E3821 /* RandomGenerator.swift in Sources */,
+				384D2FE62D7D8FC0007E3821 /* RadarScanner.swift in Sources */,
+				384D2FE42D7D8FC0007E3821 /* AudioVisualizer.swift in Sources */,
 				384D2FBF2D7D8BE2007E3821 /* BeautifulRandomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384D2FE92D7D8FFC007E3821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384D30062D7D931B007E3821 /* AudioVisualizerView.swift in Sources */,
+				384D2FF22D7D8FFC007E3821 /* ContentView.swift in Sources */,
+				384D2FF02D7D8FFC007E3821 /* BeautifulRandomExamplesApp.swift in Sources */,
+				384D30072D7D931B007E3821 /* RadarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +373,11 @@
 			isa = PBXTargetDependency;
 			target = 384D2FAE2D7D8BE1007E3821 /* BeautifulRandom */;
 			targetProxy = 384D2FBB2D7D8BE2007E3821 /* PBXContainerItemProxy */;
+		};
+		384D30012D7D9052007E3821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 384D2FAE2D7D8BE1007E3821 /* BeautifulRandom */;
+			targetProxy = 384D30002D7D9052007E3821 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -270,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -330,7 +495,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -357,6 +522,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,6 +556,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -411,10 +578,12 @@
 		384D2FC72D7D8BE2007E3821 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KH4728P4N3;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WaterdropSophon.BeautifulRandomTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,14 +596,76 @@
 		384D2FC82D7D8BE2007E3821 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KH4728P4N3;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WaterdropSophon.BeautifulRandomTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		384D2FF92D7D8FFF007E3821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeautifulRandomExamples/Preview Content\"";
+				DEVELOPMENT_TEAM = KH4728P4N3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WaterdropSophon.BeautifulRandomExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		384D2FFA2D7D8FFF007E3821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeautifulRandomExamples/Preview Content\"";
+				DEVELOPMENT_TEAM = KH4728P4N3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WaterdropSophon.BeautifulRandomExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,6 +697,15 @@
 			buildConfigurations = (
 				384D2FC72D7D8BE2007E3821 /* Debug */,
 				384D2FC82D7D8BE2007E3821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		384D2FF82D7D8FFF007E3821 /* Build configuration list for PBXNativeTarget "BeautifulRandomExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				384D2FF92D7D8FFF007E3821 /* Debug */,
+				384D2FFA2D7D8FFF007E3821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
